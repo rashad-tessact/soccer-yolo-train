@@ -1,0 +1,12 @@
+train: /home/ahammed/Downloads/football-players-detection.v12i.yolov8/train
+val: /home/ahammed/Downloads/football-players-detection.v12i.yolov8/valid
+test: /home/ahammed/Downloads/football-players-detection.v12i.yolov8/test
+
+nc: 4
+names: ["ball", "goalkeeper", "player", "referee"]
+roboflow:
+  workspace: roboflow-jvuqo
+  project: football-players-detection-3zvbc
+  version: 12
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/12
